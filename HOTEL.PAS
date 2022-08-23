@@ -6,9 +6,9 @@ begin
   hospedaje:= 1200;
   aumento:=950;
  
- writeln('¿cuantos dias se quedo parce?');
+ writeln('¿cuantos dias se quedo?');
  readln(dia);
  
- writeln('costo total es de: ',hospedaje+aumento*dia);
+ writeln('costo total es de: ',hospedaje+aumento*(dia-1));
  
 end.
